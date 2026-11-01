@@ -10,5 +10,7 @@
     "test": "node --test",
     "index": "node --env-file=.env scripts/index.mjs"
   },
-  "devDependencies": { "vite": "^7.2.2" }
+  "devDependencies": {
+    "vite": "^7.2.2"
+  }
 }

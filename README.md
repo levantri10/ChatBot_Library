@@ -48,14 +48,14 @@ npm run dev
 
 Trên PowerShell thay `cp` bằng `Copy-Item` nếu cần. `npm run dev` chạy giao diện và API qua `vercel dev`. `npm run dev:ui` chỉ phục vụ giao diện, không có API. Khi Vercel CLI hỏi môi trường local, dùng các giá trị trong `.env`.
 
-| Biến môi trường | Mục đích |
-| --- | --- |
-| `SUPABASE_URL` | URL project Supabase |
-| `SUPABASE_SERVICE_ROLE_KEY` | Khóa server, không đưa vào frontend |
-| `GEMINI_API_KEY` | Khóa Google AI Studio của project đang hoạt động |
-| `GEMINI_MODEL` | Mặc định `gemini-2.5-flash`, có thể đổi theo model tài khoản có quota |
-| `ADMIN_PASSWORD` | Mật khẩu quản trị dài, ngẫu nhiên |
-| `RATE_LIMIT_SALT` | Chuỗi ngẫu nhiên để băm IP trước khi lưu bộ đếm |
+| Biến môi trường             | Mục đích                                                              |
+| --------------------------- | --------------------------------------------------------------------- |
+| `SUPABASE_URL`              | URL project Supabase                                                  |
+| `SUPABASE_SERVICE_ROLE_KEY` | Khóa server, không đưa vào frontend                                   |
+| `GEMINI_API_KEY`            | Khóa Google AI Studio của project đang hoạt động                      |
+| `GEMINI_MODEL`              | Mặc định `gemini-2.5-flash`, có thể đổi theo model tài khoản có quota |
+| `ADMIN_PASSWORD`            | Mật khẩu quản trị dài, ngẫu nhiên                                     |
+| `RATE_LIMIT_SALT`           | Chuỗi ngẫu nhiên để băm IP trước khi lưu bộ đếm                       |
 
 Không đặt tiền tố `VITE_` cho khóa. `.env`, `.env.local` và `.vercel` được Git bỏ qua. Token Supabase Management chỉ dùng thiết lập, không cần cho ứng dụng khi chạy.
 
