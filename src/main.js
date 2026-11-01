@@ -1,5 +1,4 @@
 import './style.css';
-const icon={book:'▤',chat:'✧',search:'⌕',arrow:'↗'};
 const state={books:[],documents:[],tab:'chat',messages:[],busy:false,search:'',password:'',editing:null};
 const $=s=>document.querySelector(s);
 const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
