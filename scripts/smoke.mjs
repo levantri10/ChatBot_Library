@@ -1,4 +1,5 @@
 // Run manually: node --env-file=.env scripts/smoke.mjs
+import "./load-env.mjs";
 import assert from "node:assert/strict";
 import handler from "../api/chat.js";
 import adminHandler from "../api/admin.js";
@@ -35,6 +36,7 @@ const stock = await invoke(handler, {
   body: { message: "Sách Cơ sở dữ liệu còn bao nhiêu cuốn?" },
 });
 assert.equal(stock.status, 200);
+if (process.env.REQUIRE_AI === "1") assert.equal(stock.data.mode, process.env.CHAT_PROVIDER);
 assert.equal(stock.data.sources[0].title, "Cơ sở dữ liệu");
 assert.match(stock.data.sources[0].content, /còn: 3 cuốn/);
 const hours = await invoke(handler, {
@@ -82,5 +84,5 @@ assert.equal(
 );
 const chunks = await db("library_chunks?select=id,embedding");
 console.log(
-  `PASS: stock, hours, unknown book, admin auth, inventory validation; ${chunks.length} indexed sources. Gemini mode: ${stock.data.mode}.`,
+  `PASS: stock, hours, unknown book, admin auth, inventory validation; ${chunks.length} indexed sources. Chat mode: ${stock.data.mode}.`,
 );

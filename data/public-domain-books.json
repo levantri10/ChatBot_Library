@@ -1,0 +1,29 @@
+[
+  {
+    "title": "Alice's Adventures in Wonderland",
+    "author": "Lewis Carroll",
+    "category": "Văn học · Thiếu nhi · Tiếng Anh",
+    "location": "C1 · Kệ minh họa",
+    "summary": "Dữ liệu mẫu: tên Việt tham khảo Alice ở xứ sở thần tiên. Xuất bản năm 1865. Alice theo Thỏ Trắng xuống hang và gặp những nhân vật kỳ lạ trong một thế giới tưởng tượng. Tác phẩm khai thác trí tưởng tượng, ngôn ngữ và các tình huống phi lý. Tóm tắt tiếng Việt tự biên soạn; văn bản gốc tiếng Anh. Nguồn: https://www.gutenberg.org/ebooks/11 — Project Gutenberg ghi public domain in the USA. Tồn kho và vị trí kệ chỉ là giả lập.",
+    "total": 8,
+    "available": 5
+  },
+  {
+    "title": "Pride and Prejudice",
+    "author": "Jane Austen",
+    "category": "Văn học · Tiểu thuyết · Tiếng Anh",
+    "location": "C2 · Kệ minh họa",
+    "summary": "Dữ liệu mẫu: tên Việt tham khảo Kiêu hãnh và định kiến. Xuất bản năm 1813. Elizabeth Bennet và Darcy phải nhìn lại những đánh giá ban đầu về nhau. Câu chuyện đặt tình yêu, hôn nhân và địa vị xã hội trong đời sống gia đình Bennet. Tóm tắt tiếng Việt tự biên soạn; văn bản gốc tiếng Anh. Nguồn: https://www.gutenberg.org/ebooks/1342 — Project Gutenberg ghi public domain in the USA. Tồn kho và vị trí kệ chỉ là giả lập.",
+    "total": 6,
+    "available": 4
+  },
+  {
+    "title": "The Adventures of Sherlock Holmes",
+    "author": "Arthur Conan Doyle",
+    "category": "Văn học · Trinh thám · Tiếng Anh",
+    "location": "C3 · Kệ minh họa",
+    "summary": "Dữ liệu mẫu: tên Việt tham khảo Những cuộc phiêu lưu của Sherlock Holmes. Tuyển tập 12 truyện, xuất bản năm 1892. Thám tử Sherlock Holmes và bác sĩ Watson điều tra các vụ án bằng quan sát và suy luận. Có các truyện A Scandal in Bohemia và The Red-headed League. Tóm tắt tiếng Việt tự biên soạn; văn bản gốc tiếng Anh. Nguồn: https://www.gutenberg.org/ebooks/1661 — Project Gutenberg ghi public domain in the USA. Tồn kho và vị trí kệ chỉ là giả lập.",
+    "total": 10,
+    "available": 6
+  }
+]

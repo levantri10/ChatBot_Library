@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none" role="img" aria-labelledby="title desc">
+  <title id="title">Thư Viện AI</title>
+  <desc id="desc">Biểu tượng quyển sách và ngôi sao trên nền xanh lá.</desc>
+  <rect x="4" y="4" width="120" height="120" rx="34" fill="#143E36"/>
+  <rect x="5" y="5" width="118" height="118" rx="33" stroke="#C5D7BD" stroke-opacity=".35" stroke-width="2"/>
+  <path d="M32 35h29c9 0 15 4 15 11v48c-3-5-8-7-15-7H32V35Z" stroke="#E7EEDC" stroke-width="4" stroke-linejoin="round"/>
+  <path d="M76 94c4-5 9-7 18-7V62M43 49h18M43 60h18M43 71h18" stroke="#E7EEDC" stroke-width="4" stroke-linecap="round"/>
+  <path d="m91 24 5 14 14 5-14 5-5 14-5-14-14-5 14-5 5-14Z" fill="#D4DDA5"/>
+</svg>

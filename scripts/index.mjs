@@ -1,3 +1,4 @@
+import "./load-env.mjs";
 import { catalog, indexSource } from "../lib/server.js";
 const { books, documents } = await catalog();
 let embedded = 0;

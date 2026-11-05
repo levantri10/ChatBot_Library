@@ -4,11 +4,14 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "dev": "vercel dev",
+    "dev": "node scripts/dev.mjs",
+    "dev:vercel": "vercel dev",
     "dev:ui": "vite --host 127.0.0.1",
     "build": "vite build",
     "test": "node --test",
-    "index": "node --env-file=.env scripts/index.mjs"
+    "index": "node scripts/index.mjs",
+    "smoke": "node scripts/smoke.mjs",
+    "demo:import": "node scripts/import-demo.mjs"
   },
   "devDependencies": {
     "vite": "^7.2.2"
