@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="docs/assets/logo.svg" width="104" height="104" alt="Logo Thư Viện AI">
+<img src="docs/assets/logo.svg" width="120" height="120" alt="Logo Thư Viện AI">
 
 # Thư Viện AI
 
@@ -28,6 +28,8 @@ Một đồ án ứng dụng AI vào dữ liệu thư viện, từ giao diện n
 Mỗi câu trả lời có thể mở nguồn để đối chiếu. Khi không tìm thấy dữ liệu, hệ thống báo chưa có thông tin. Khi nhà cung cấp AI lỗi, chức năng tra cứu vẫn trả dữ liệu trực tiếp và ghi rõ chế độ dự phòng.
 
 > **Về bản demo:** tồn kho, vị trí kệ, lịch làm việc và quy định đều là dữ liệu minh họa. Ba sách văn học có tên, tác giả và nguồn văn bản công cộng được dẫn rõ; ứng dụng không đại diện cho thư viện hay trường học nào.
+
+Logo riêng **Tri thức đối thoại** kết hợp sách mở và khung hội thoại, dùng thống nhất trong ứng dụng, favicon và hồ sơ dự án.
 
 ## Ảnh demo
 

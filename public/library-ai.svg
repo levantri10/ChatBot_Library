@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="160" height="160" viewBox="0 0 160 160" fill="none" role="img" aria-labelledby="title description">
+  <title id="title">Thư Viện AI — Tri thức đối thoại</title>
+  <desc id="description">Hai trang sách tạo thành khung hội thoại, ba điểm sáng biểu thị kết nối tri thức và AI.</desc>
+  <rect x="4" y="4" width="152" height="152" rx="42" fill="#143E36"/>
+  <rect x="5" y="5" width="150" height="150" rx="41" stroke="#B5CEAD" stroke-opacity=".28" stroke-width="2"/>
+  <path d="M36 48C52 43 66 47 80 56V112C66 104 53 100 36 104V48Z" fill="#F2F4DF"/>
+  <path d="M80 56C94 47 108 43 124 48V104C107 100 94 104 80 112V56Z" fill="#C8D9AA"/>
+  <path d="M42 101L36 123L62 105" fill="#F2F4DF"/>
+  <path d="M80 59V106" stroke="#143E36" stroke-width="3" stroke-linecap="round"/>
+  <path d="M47 62C54 62 61 64 67 67M47 75C54 75 61 77 67 80M93 67C99 64 106 62 113 62M93 80C99 77 106 75 113 75" stroke="#143E36" stroke-opacity=".55" stroke-width="3.5" stroke-linecap="round"/>
+  <path d="M95 29H116" stroke="#D6AE66" stroke-width="2" stroke-linecap="round"/>
+  <circle cx="90" cy="29" r="4" fill="#D6AE66"/>
+  <circle cx="105" cy="29" r="4" fill="#D6AE66"/>
+  <circle cx="120" cy="29" r="4" fill="#D6AE66"/>
+</svg>
