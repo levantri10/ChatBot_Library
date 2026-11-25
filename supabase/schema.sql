@@ -60,6 +60,6 @@ insert into library_documents(title,kind,content)
 select v.* from (values
  ('Giờ hành chính thư viện (dữ liệu mẫu)','hours','DỮ LIỆU MẪU, chưa phải lịch chính thức. Thứ Hai đến Thứ Sáu: 07:30–11:30 và 13:00–17:00. Thứ Bảy, Chủ Nhật và ngày lễ: đóng cửa. Múi giờ: Asia/Ho_Chi_Minh. Liên hệ thủ thư để xác nhận lịch thực tế.'),
  ('Quy định mượn sách (dữ liệu mẫu)','policy','DỮ LIỆU MẪU: sinh viên mang thẻ sinh viên khi mượn sách, tối đa 3 cuốn trong 14 ngày. Có thể gia hạn một lần nếu chưa có người đặt trước. Sách chỉ đọc tại chỗ cần hỏi thủ thư.'),
- ('Giới thiệu dữ liệu demo','notice','Ứng dụng đang sử dụng dữ liệu minh họa. Tên sách, số lượng, vị trí, nội dung và giờ làm việc phải được quản trị viên thay bằng dữ liệu thực tế của thư viện. Không có thông tin chính thức về UTH trong bộ dữ liệu này.')
+ ('Giới thiệu dữ liệu demo','notice','Ứng dụng đang sử dụng dữ liệu minh họa. Tên sách, số lượng, vị trí, nội dung và giờ làm việc phải được quản trị viên thay bằng dữ liệu thực tế của thư viện. Bộ dữ liệu này chỉ dùng để minh họa.')
 ) v(title,kind,content)
 where not exists(select 1 from library_documents);
